@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",        // Prettier - Code formatter
+    "dbaeumer.vscode-eslint",       // ESLint - Linting for JS/TS
+    "bradlc.vscode-tailwindcss",    // Tailwind CSS IntelliSense
+    "ms-vscode.vscode-typescript-next", // TypeScript Next - latest TS features
+    "ms-azuretools.vscode-docker",  // Docker integration
+    "prisma.prisma",                // Prisma ORM support (if you use Supabase/Postgres)
+    "rangav.vscode-thunder-client"  // Thunder Client - lightweight API testing
+  ]
+}

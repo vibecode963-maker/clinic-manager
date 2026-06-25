@@ -1,0 +1,42 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "afterDelay",
+  "files.associations": {
+    "*.code-workspace": "json"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "workbench.colorTheme": "Default Dark+",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "keybindings": [
+    {
+      "key": "ctrl+shift+d",
+      "command": "workbench.action.tasks.runTask",
+      "args": "Start Dev Server"
+    },
+    {
+      "key": "ctrl+shift+b",
+      "command": "workbench.action.tasks.runTask",
+      "args": "Build Project"
+    },
+    {
+      "key": "ctrl+shift+l",
+      "command": "workbench.action.tasks.runTask",
+      "args": "Lint Code"
+    },
+    {
+      "key": "ctrl+shift+t",
+      "command": "workbench.action.tasks.runTask",
+      "args": "Run Tests"
+    }
+  ]
+}
