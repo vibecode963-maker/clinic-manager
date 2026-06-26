@@ -1,20 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
   compress: true,
   images: {
-    domains: [
-      'images.unsplash.com',
-      'cdn.jsdelivr.net',
-      'vercel.com'
+    remotePatterns: [
+      { protocol: "https", hostname: "images.unsplash.com" },
+      { protocol: "https", hostname: "cdn.jsdelivr.net" },
+      { protocol: "https", hostname: "vercel.com" },
     ],
-    formats: ['image/avif', 'image/webp']
   },
-  experimental: {
-    optimizeCss: true,
-    scrollRestoration: true
-  }
 };
 
 module.exports = nextConfig;
